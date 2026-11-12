@@ -1,5 +1,5 @@
 # GPU-aware base so nvidia-smi is available in-container
-FROM nvidia/cuda:12.6.3-base-ubuntu22.04
+FROM nvidia/cuda:13.5.0-base-ubuntu22.04
 
 # Install Python 3.10 (ships with Ubuntu 22.04) + pip + curl
 RUN apt-get update -qq && \
