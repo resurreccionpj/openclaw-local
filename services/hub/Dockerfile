@@ -1,5 +1,5 @@
 # GPU-aware base so nvidia-smi is available for monitor module
-FROM nvidia/cuda:12.6.3-base-ubuntu22.04
+FROM nvidia/cuda:13.5.0-base-ubuntu22.04
 
 RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends \
